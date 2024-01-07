@@ -1,0 +1,104 @@
+.courses {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: .7rem;
+}
+
+.course-item {
+    display: flex;
+    width: 13.40625rem;
+    /* width: 214px; */
+    /* height: 7.75rem; */
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+    border-radius: 1rem;
+    transition: all .2s ease-in-out;
+
+}
+
+.courses .course-item:nth-child(1) {
+    background: linear-gradient(270deg, #FF9E2D 0%, #FFBD6F 100%);
+    box-shadow: 0px 54px 40px -44px #FFC989;
+}
+.courses .course-item:nth-child(2) {
+    background: linear-gradient(270deg, #8A75F8 0%, #AA98FD 100%);
+    box-shadow: 0px 54px 40px -44px #B7A9FF;
+}
+.courses .course-item:nth-child(3) {
+    background: linear-gradient(270deg, #F55787 0%, #FE89B5 100%);
+    box-shadow: 0px 54px 40px -44px #FF8EB4;
+}
+
+.course-image {
+    display: flex;
+    padding: 0.25rem;
+    align-items: flex-start;
+    border-radius: 0.375rem;
+    background: rgba(255, 255, 255, 0.10);
+    
+}
+
+.course-image img {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.03863rem 0rem;
+}
+
+.course-item h5 {
+    color: var(--White, #FFF);
+    /* 18 Bold */
+    font-family: "iranYekan";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.course-title {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.course-item:hover {
+    transform: translate(0 , -12px) scale(1.05);
+    transition: all .2s ease-in-out;
+}
+
+/* COURSE DETAILS */
+
+.course-details {
+    width: 43.1875rem;
+    height: 13.4375rem;
+    border-radius: 1.5rem;
+    background: var(--Purple3, #F5F6FF);
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.course-details p {
+    color: var(--Gray-1, #333);
+    /* 14 Med */
+    font-family: "iranYekan";
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem; /* 142.857% */
+    padding: 1rem;
+}
+
+/* DOTS */
+
+.dots {
+    position: absolute;
+    right: 1rem;
+    bottom: 5.5rem;
+    z-index: -1;
+    transform: scale(1.4);
+}
