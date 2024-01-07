@@ -58,7 +58,7 @@
     gap: 12.668px;
     border-radius: 19.003px;
     background: var(--Purple3, #F5F6FF);
-    font-family: "iranYekan";
+    /* font-family: "iranYekan"; */
     margin-bottom: 12px;
     transition: all .2s ease-in-out;
 

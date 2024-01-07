@@ -13,7 +13,7 @@ function Courses() {
         <div className="courses">
             <div className="course-item">
                 <div className="course-image">
-                    <img src={javascript}/>
+                    <img src={javascript} alt="logo"/>
                 </div>
                 <div className="course-title">
                     <h5>آموزش برنامه نویسی</h5>
@@ -22,7 +22,7 @@ function Courses() {
 
             <div className="course-item">
                 <div className="course-image">
-                    <img src={brain}/>
+                    <img src={brain} alt="logo"/>
                 </div>
                 <div className="course-title">
                     <h5>مشاوره</h5>
@@ -31,7 +31,7 @@ function Courses() {
             
             <div className="course-item">
                 <div className="course-image">
-                    <img src={language}/>
+                    <img src={language} alt="logo"/>
                 </div>
                 <div className="course-title">
                     <h5>آموزش زبان</h5>

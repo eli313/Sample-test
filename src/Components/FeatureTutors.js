@@ -31,7 +31,7 @@ function FeatureTutors() {
 						<div className="header-details">
 							<div className="slide-info">
 								<div className="slide-img">
-									<img src={profile} />
+									<img src={profile} alt="profile" />
 								</div>
 								<div>
 									<h3>گیلدا ناصری</h3>
@@ -45,7 +45,7 @@ function FeatureTutors() {
 								</div>
 							</div>
 							<div className="slide-flag">
-								<img src={turkey} />
+								<img src={turkey}  alt="flag" />
 							</div>
 						</div>
 						<p>
@@ -63,7 +63,7 @@ function FeatureTutors() {
 						<div className="header-details">
 							<div className="slide-info">
 								<div className="slide-img">
-									<img src={profile} />
+									<img src={profile} alt="profile" />
 								</div>
 								<div>
 									<h3>گیلدا ناصری</h3>
@@ -77,7 +77,7 @@ function FeatureTutors() {
 								</div>
 							</div>
 							<div className="slide-flag">
-								<img src={usa} />
+								<img src={usa}  alt="flag" />
 							</div>
 						</div>
 						<p>
@@ -101,7 +101,7 @@ function FeatureTutors() {
 						<div className="header-details">
 							<div className="slide-info">
 								<div className="slide-img">
-									<img src={profile} />
+									<img src={profile} alt="profile"/>
 								</div>
 								<div>
 									<h3>گیلدا ناصری</h3>
@@ -115,7 +115,7 @@ function FeatureTutors() {
 								</div>
 							</div>
 							<div className="slide-flag">
-								<img src={Spain} />
+								<img src={Spain} alt="flag" />
 							</div>
 						</div>
 						<p>

@@ -50,7 +50,7 @@
 .course-item h5 {
     color: var(--White, #FFF);
     /* 18 Bold */
-    font-family: "iranYekan";
+    /* font-family: "iranYekan"; */
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 900;
@@ -85,7 +85,7 @@
 .course-details p {
     color: var(--Gray-1, #333);
     /* 14 Med */
-    font-family: "iranYekan";
+    /* font-family: "iranYekan"; */
     font-size: 0.8rem;
     font-style: normal;
     font-weight: 700;
